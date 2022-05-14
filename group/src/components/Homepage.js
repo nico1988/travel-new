@@ -10,11 +10,11 @@ import 'antd/dist/antd.min.css'
 import '../css/Homepage.css';
 const BgElement = Element.BgElement;
 
-const App = (props) => {
-  const onClick = () =>{
+const HomePage = (props) => {
+  const onClick = () => {
     this.props.history.push('./Maptest.js')
   }
-  return(
+  return (
     // antd banner
     <div>
       <div>
@@ -23,7 +23,7 @@ const App = (props) => {
 
       <div className='banner'>
         <BannerAnim prefixCls="banner-user" autoPlay>
-          <Element 
+          <Element
             prefixCls="banner-user-elem"
             key="0"
           >
@@ -34,15 +34,15 @@ const App = (props) => {
             <TweenOne className="banner-user-title" animation={{ y: 30, opacity: 0, type: 'from' }}>
               Welcome to 732 Terrific Tuataras Group Project!
             </TweenOne>
-            <TweenOne className="banner-user-text" 
+            <TweenOne className="banner-user-text"
               animation={{ y: 30, opacity: 0, type: 'from', delay: 100 }}
             >
               Shan Li, Nandi Ruan, Aaron Fan, Zixuan Su, Kai Chen
             </TweenOne>
           </Element>
-          <Element 
+          <Element
             prefixCls="banner-user-elem"
-            key="1" 
+            key="1"
           >
             <BgElement
               key="bg"
@@ -51,17 +51,17 @@ const App = (props) => {
             <TweenOne className="banner-user-title" animation={{ y: 30, opacity: 0, type: 'from' }}>
               Travelling Dairy APP
             </TweenOne>
-            <TweenOne className="banner-user-text" 
+            <TweenOne className="banner-user-text"
               animation={{ y: 30, opacity: 0, type: 'from', delay: 100 }}
             >
               Enjoy your travelling management
             </TweenOne>
           </Element>
         </BannerAnim>
-        
+
       </div>
     </div>
   )
 }
 
-export default App
+export default HomePage
