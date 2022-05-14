@@ -16,26 +16,26 @@ function refreshPage() {
 
 const Forecast = ({ forecast }) => (
   <div>
-  <Container className={styles.box} style={{width:500,background:"#343d4b"}}>
-    <Row>
-      <Col xs={12} md={4}>
-        <div className={styles.card}>
-          <CurrentDay {...forecast.currentDay} />
-        </div>
-      </Col>
-      <Col xs={12} md={8} className="d-flex flex-column justify-content-between">
-        <CurrentDayDescription forecast={forecast.currentDayDetails} />
-        <UpcomingDaysForecast days={forecast.upcomingDays} />
-      </Col>
-    </Row>
-  </Container>
-  <center>
+    <Container data-testid="forcastContainer" className={styles.box} style={{ width: 500, background: "#343d4b" }}>
+      <Row>
+        <Col xs={12} md={4}>
+          <div className={styles.card}>
+            <CurrentDay {...forecast.currentDay} />
+          </div>
+        </Col>
+        <Col xs={12} md={8} className="d-flex flex-column justify-content-between">
+          <CurrentDayDescription forecast={forecast.currentDayDetails} />
+          <UpcomingDaysForecast days={forecast.upcomingDays} />
+        </Col>
+      </Row>
+    </Container>
+    <center>
 
-  <button className={styles.button} onClick={refreshPage}>
-  Back To Search
-  </button>
-  
-  </center>
+      <button className={styles.button} onClick={refreshPage}>
+        Back To Search
+      </button>
+
+    </center>
   </div>
 );
 

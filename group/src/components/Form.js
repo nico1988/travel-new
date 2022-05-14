@@ -15,6 +15,7 @@ const Form = ({ submitSearch }) => {
     <form onSubmit={onSubmit}>
       <input
         type="text"
+        data-testid="formInput"
         className={`${styles.input} form-control`}
         placeholder="Enter location"
         value={location}
@@ -22,7 +23,9 @@ const Form = ({ submitSearch }) => {
         required
       />
 
-      <button type="submit" className={styles.button} onClick={onSubmit}>
+      <button
+        data-testid="formSearchButton"
+        type="submit" className={styles.button} onClick={onSubmit}>
         SEARCH
       </button>
     </form>

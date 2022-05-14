@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://localhost:3002";
 const TOKEN_KEY = "token";
 const USER_NAME_KEY = "username";
 const EMAIL_KEY = "email";
