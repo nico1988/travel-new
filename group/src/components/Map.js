@@ -49,7 +49,7 @@ const Map = (props) => {
                 <div><Menubar /></div>
 
 
-                <div className='mapContainer'>
+                <div className='mapContainer' data-testid="mapContainer">
 
                     <LoadScript googleMapsApiKey='AIzaSyC5of-OwPJ-veVSDun2Xr5BglgGlwrFbuM' libraries={libraries}>
                         <Search panTo={panTo}></Search>
@@ -83,7 +83,7 @@ const Map = (props) => {
             </div>
         )
     ) : (
-        <h1>Your browser doesn't support Geolocation API</h1>
+        <h1 data-testid="mapNotSurpport">Your browser doesn't support Geolocation API</h1>
     );
 };
 
