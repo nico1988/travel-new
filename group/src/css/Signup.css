@@ -1,0 +1,116 @@
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+.ant-form{
+    width: 100%;
+}
+
+.ant-form-item-label>label{
+    font-size: 12px !important;
+}
+
+.registerTxt{
+    display: inline-block;
+    margin-left: 1vw;
+}
+
+.registerLink{
+    margin-left: 1vw;
+}
+
+.signupContainer{
+    position: absolute;
+    top: 3rem;
+    left: 0%;
+    right: 0%;
+    z-index: 9999;
+}
+
+.container {
+    border-color: black;
+    display: flex;
+    width: 43vw;
+    min-width: 50rem;
+    margin: 10vh auto;
+    text-align: center;
+    background-color: rgb(240,242,245);
+}
+
+
+.leftContent {
+    width: 23vw;
+    min-width: 30rem;
+    float: left;
+    /* display: none; */
+}
+
+.layout{
+    position: relative;
+}
+
+.ant-layout-content{
+    margin-left: 0 !important;
+    
+}
+.content {
+    flex: 1;
+    padding: 40px;
+    min-height: min-content;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.rightContent {
+    float: left;
+    width: 20vw;
+    min-width: 20rem;
+    line-height: 574px;
+    /* display: none; */
+}
+
+.ant-image{
+    display: block;
+    margin: auto 0;
+}
+
+.signInImage{
+    /* width: 20vw; */
+    /* min-width: 30rem; */
+}
+.alertT {
+    margin: 0 auto;
+    width: 15vw;
+    min-width: 30rem;
+    visibility: visible;
+}
+
+.alertF {
+    margin: 0 auto;
+    width: 15vw;
+    min-width: 30rem;
+    visibility: hidden;
+}
+
+.submitSuccessContainer{
+    position: absolute;
+    z-index: 9999;
+    width: 43vw;
+    min-width: 50rem;
+    /* height: 100%; */
+    background-color: #f0f2f5;
+    display: none;
+}
+

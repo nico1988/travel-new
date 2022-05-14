@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.signinContainer{
+    position: absolute;
+    top: 3rem;
+    left: 0%;
+    right: 0%;
+    z-index: 9999;
+}
+
+.container {
+    border-color: black;
+    display: flex;
+    width: 43vw;
+    min-width: 50rem;
+    margin: 10vh auto;
+    text-align: center;
+    background-color: rgb(240,242,245);
+
+}
+
+
+.leftContent {
+    width: 23vw;
+    min-width: 30rem;
+    float: left;
+}
+
+.layout{
+    position: relative;
+}
+
+.ant-layout-content{
+    margin-left: 0 !important;
+    
+}
+.content {
+    flex: 1;
+    padding: 40px;
+    min-height: min-content;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.rightContent {
+    float: left;
+    width: 20vw;
+    min-width: 20rem;
+    line-height: 574px;
+}
+
+.ant-image{
+    display: block;
+    margin: auto 0;
+}
+
+.signInImage{
+    /* width: 20vw; */
+    /* min-width: 30rem; */
+}
+.alertT {
+    margin: 0 auto;
+    width: 15vw;
+    min-width: 30rem;
+    visibility: visible;
+}
+
+.alertF {
+    margin: 0 auto;
+    width: 15vw;
+    min-width: 30rem;
+    visibility: hidden;
+}
+

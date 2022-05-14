@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  .accountArea{
+    width: 20%;
+    float: left;
+    height: 4vh;
+  }
+  
+  .loginButton{
+    margin: 0.8vh 0 0.5vh 0;
+    height: 1vh;
+    border-radius: 8%;
+    box-sizing: border-box;
+    width: 3vw;
+    min-width: 4rem;
+    min-height: 2rem;
+    position: absolute;
+    right: 3vw
+  }
+  
+  .banner{
+    clear: both;
+
+  }
+
+  .bg{
+    background-image: url('../image/coverImg2.jpg');
+  }
+
+  .bg.bg1{
+    background-image: url('../image/coverImg1.jpg');
+  }
+  
+  .banner-user{
+    height: 60vh;
+  }
+  .banner-user-elem{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-user-elem .banner-user-title{
+    font-size: 2.5vw;
+    top: 40%;
+    margin-bottom: 4vh;
+  }
+  .banner-user-elem .banner-user-text{
+    top: 40%;
+  }
+  .banner-user-text{
+    font-size: 1vw;
+  }
+  .bg{
+      background-position: 50% 55%;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .banner-anim-elem .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  

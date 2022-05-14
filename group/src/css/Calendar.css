@@ -1,0 +1,44 @@
+.allContainer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    min-height: 60rem;
+}
+
+.buttonContainer{
+    width: 48%;
+    float: left;
+    margin: 0 1%;
+}
+
+.ant-card-body{
+    height: 50vh;
+}
+
+.datePickBox{
+    border: 1px solid #d9d9d9;
+    width: 50%;
+    padding: 4px 11px;
+}
+
+.datePickBox::-webkit-input-placeholder{
+    color: #c1c1c2;
+}
+.ant-card-bordered{
+    border: 0 !important;
+}
+
+#eventButton{
+    padding: 0 !important;
+}
+
+.eventButton{
+    display: block;
+    margin: 0 auto;
+    width: 7vw;
+    text-align: center;
+    min-width: 7.5rem;
+    height: 2rem;
+    min-height: 2rem;
+}

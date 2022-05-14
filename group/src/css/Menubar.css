@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu {
+
+    padding: 0 3vw !important
+}
+
+.accountArea{
+    width: 20%;
+    float: left;
+    height: 3rem !important;
+  }
+  
+.loginButton{
+    margin: 0.8vh 0 0.5vh 0;
+    height: 1vh;
+    border-radius: 8%;
+    box-sizing: border-box;
+    width: 3vw;
+    min-width: 4rem;
+    min-height: 2rem;
+    position: absolute;
+    right: 3vw;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.welcomeArea{
+    margin: 0.8vh 0 0.5vh 0;
+    height: 1vh;
+    width: 9vw;
+    min-width: 4rem;
+    min-height: 2rem;
+    /* background-color: red; */
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.1rem;
+    position: absolute;
+    right: 8vw;    
+    min-width: 10rem;
+    min-height: 2rem;
+    /* background-color: red; */
+}
+
+.welcomeTxt{
+    float: left;
+    margin-right: 0.8vw;
+}
+
+.avatar{
+    margin: 0.5vh 0 0.5vh 0;
+    float: left;
+}
+  

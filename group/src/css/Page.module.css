@@ -1,0 +1,17 @@
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  background-color: #222831;
+  color: var(--main-text-color);
+  width: 85%;
+  max-width: 675px;
+  min-height: 300px;
+  margin: auto;
+}
+.bck{
+  background-color: #222831;
+}
