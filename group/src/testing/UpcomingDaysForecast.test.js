@@ -14,6 +14,14 @@ describe('UpcomingDaysForecast test suit', () => {
       temperature: 33,
       description: 'sunny',
       icon: '01d',
+    },
+    {
+      weekday: 'Tuesday',
+      date: '01/01/2020',
+      imgUrl: 'https://www.metaweather.com/static/img/weather/png/64/s01d.png',
+      temperature: 34,
+      description: 'sunny',
+      icon: '01d',
     }
   ]
 
