@@ -1,4 +1,5 @@
 delete window.matchMedia;
+
 window.matchMedia = (query) => ({
   matches: false,
   media: query,
