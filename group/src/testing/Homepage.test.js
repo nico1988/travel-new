@@ -7,7 +7,7 @@ import './common.js';
 
 // Calendar test suit
 describe('Calendar', () => {
-  it('renders add new Event', async () => {
+  it('renders canlendar', async () => {
     await act(async () => render(<BrowserRouter><Calendar /></BrowserRouter>));
 
     // render(<BrowserRouter><Calendar /></BrowserRouter>)
